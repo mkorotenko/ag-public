@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { PageComponent } from './shared/page/page.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PageComponent
   ],
   imports: [
     BrowserModule
